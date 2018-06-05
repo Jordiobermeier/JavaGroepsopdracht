@@ -7,7 +7,7 @@ public class VanguardApp extends JFrame {
 		    frame.setSize( 400, 200 );
 		    frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		    frame.setTitle( "VanguardApp" );
-		    JPanel Circle = new Circle();
+		    Circle Circle = new Circle();
 		    frame.setContentPane( Circle );
 		    frame.setVisible( true );
 		  }
