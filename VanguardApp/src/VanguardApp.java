@@ -1,4 +1,4 @@
-import javax.swing.JFrame;
+import javax.swing.*;
 import javax.swing.JPanel;
 
 public class VanguardApp extends JFrame {
@@ -7,8 +7,8 @@ public class VanguardApp extends JFrame {
 		    frame.setSize( 400, 200 );
 		    frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		    frame.setTitle( "VanguardApp" );
-		    JPanel Circle = new Circle();
-		    frame.setContentPane( Circle );
+		    JPanel controller = new Controller();
+		    frame.setContentPane( controller );
 		    frame.setVisible( true );
 		  }
 }
