@@ -1,4 +1,4 @@
 
-public class Button extends Cicle{
+public class Button extends Circle{
 
 }
