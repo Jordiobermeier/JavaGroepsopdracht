@@ -4,6 +4,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
+
 public class Circle extends VanguardApp {
 	JTextField inputBase, inputPower, outputTotal;
 	JButton reset;

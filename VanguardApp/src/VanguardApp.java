@@ -8,8 +8,8 @@ public class VanguardApp extends JFrame {
 		    frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		    frame.setTitle( "VanguardApp" );
 
-		    JPanel controller = new Controller();
-		    frame.setContentPane( controller );
+		    JPanel Button = new Button();
+		    frame.setContentPane( Button );
 
 		    frame.setVisible( true );
 		  }
