@@ -11,11 +11,10 @@ public class VanguardApp extends JFrame {
 		    frame.setBounds(8, 40, 1900, 1000);
 		    frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		    frame.setTitle( "VanguardApp" );
-		    
 		    frame.setContentPane( new MyPanel() );
+		    frame.add(new Button());
 		    
-//		    JPanel Button = new Button();
-//		    frame.setContentPane( Button );
+
 
 		    frame.setVisible( true );
 		  }

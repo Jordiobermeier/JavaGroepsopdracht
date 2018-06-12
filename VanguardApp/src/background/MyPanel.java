@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 public class MyPanel extends JPanel {
 
-	Image background;
+	public Image background;
 
 	public MyPanel() {
 		
