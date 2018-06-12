@@ -1,15 +1,21 @@
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.JPanel;
+import background.MyPanel;
 
 public class VanguardApp extends JFrame {
 	  public static void main( String args[] ) {
 		    JFrame frame = new VanguardApp();
-		    frame.setSize( 400, 200 );
+		    frame.setBounds(8, 40, 1900, 1000);
 		    frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		    frame.setTitle( "VanguardApp" );
-
-		    JPanel Button = new Button();
-		    frame.setContentPane( Button );
+		    
+		    frame.setContentPane( new MyPanel() );
+		    
+//		    JPanel Button = new Button();
+//		    frame.setContentPane( Button );
 
 		    frame.setVisible( true );
 		  }
