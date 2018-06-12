@@ -17,5 +17,9 @@ public class Circle extends JPanel {
 		add( inputPower );
 		add( outputTotal );
 		
+		inputBase.setBounds(10,10,200,40);
+		inputPower.setBounds(10,10,200,40);
+		outputTotal.setBounds(10,10,200,40);
+		
 }
 }

@@ -1,9 +1,5 @@
-import java.io.File;
-import java.io.IOException;
-import javax.imageio.ImageIO;
-import javax.swing.*;
-import javax.swing.JPanel;
-import background.MyPanel;
+import javax.swing.JFrame;
+
 
 public class VanguardApp extends JFrame {
 	  public static void main( String args[] ) {
@@ -12,11 +8,8 @@ public class VanguardApp extends JFrame {
 		    frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		    frame.setTitle( "VanguardApp" );
 		    
-		    frame.setContentPane( new MyPanel() );
+		    frame.setContentPane( new Button() );
 		    
-//		    JPanel Button = new Button();
-//		    frame.setContentPane( Button );
-
 		    frame.setVisible( true );
 		  }
 }
