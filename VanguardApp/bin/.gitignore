@@ -4,3 +4,10 @@
 /background/
 /assets/
 /images/
+/Button.class
+/Button$Reset.class
+/Button$Apply.class
+/Button$apply.class
+/Button$reset.class
+/Button$ApplyHandler.class
+/Button$ResetHandler.class

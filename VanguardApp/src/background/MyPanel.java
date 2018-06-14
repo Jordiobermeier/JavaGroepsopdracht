@@ -25,6 +25,5 @@ public class MyPanel extends JPanel {
 	protected void paintComponent(Graphics g) {
 		// Teken de achtergrond afbeelding
 		g.drawImage(background, 0, 0, this);
-		System.out.print(background);
 	}
 }
