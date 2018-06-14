@@ -9,9 +9,6 @@ public class VanguardApp extends JFrame {
 		    frame.setTitle( "VanguardApp" );
 		    frame.setContentPane( new MyPanel() );
 		    frame.add(new Button());
-		    
-
-
 		    frame.setVisible( true );
 		  }
 }
