@@ -9,3 +9,5 @@
 /Button$Apply.class
 /Button$apply.class
 /Button$reset.class
+/Button$ApplyHandler.class
+/Button$ResetHandler.class

@@ -25,10 +25,10 @@ public class Button extends JPanel {
 		EndTurnHandler turnEnd = new EndTurnHandler();
 		endTurn.addActionListener(turnEnd);
 		
-		EndTurnHandler Reset = new EndTurnHandler();
+		ResetHandler Reset = new ResetHandler();
 		reset.addActionListener(Reset);
 		
-		EndTurnHandler Apply = new EndTurnHandler();
+		ApplyHandler Apply = new ApplyHandler();
 		apply.addActionListener(Apply);
 	
 	}
@@ -41,13 +41,13 @@ public class Button extends JPanel {
 		}
 	}
 	
-	class Reset implements ActionListener {
+	class ResetHandler implements ActionListener {
 		public void actionPerformed( ActionEvent e) {
 			// Doe iets
 		}
 	}
 	
-	class Apply implements ActionListener {
+	class ApplyHandler implements ActionListener {
 		public void actionPerformed( ActionEvent e) {
 			// Doe iets
 		}
