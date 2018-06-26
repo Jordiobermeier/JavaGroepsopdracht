@@ -14,6 +14,8 @@ public class Button extends JPanel {
 
 	Image background;
 
+
+	
 	public Button() {
 		JButton endTurn = new JButton("Turn End");
 		EndTurnHandler turnEnd = new EndTurnHandler();
@@ -24,7 +26,8 @@ public class Button extends JPanel {
 		add(apply);
 		endTurn.addActionListener(turnEnd);
 		setVisible(true);
-
+ 
+		
 		try {
 			background = ImageIO.read(new File("bg.jpg"));
 		} catch (IOException e) {
@@ -40,6 +43,13 @@ public class Button extends JPanel {
 	}
 	
 	class EndTurnHandler implements ActionListener {
+		public void actionPerformed(ActionEvent e) {
+			JDialog d = new JDialog(frame, "Turn End", true);
+			d.setLocationRelativeTo(frame);
+			d.setVisible(true);
+		}
+	}
+	class Apply implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
 			JDialog d = new JDialog(frame, "Turn End", true);
 			d.setLocationRelativeTo(frame);
