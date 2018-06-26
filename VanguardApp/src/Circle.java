@@ -11,8 +11,8 @@ import javax.swing.event.DocumentListener;
 
 
 public class Circle extends JPanel {
-	JTextField inputBase, inputPower, outputTotal;
-	String inputBaseText, inputPowerText, outputTotalText;
+	public JTextField inputBase, inputPower, outputTotal;
+	public String inputBaseText, inputPowerText, outputTotalText;
 	int base,power,total;
 	JButton set;
 	                              
@@ -53,8 +53,8 @@ public class Circle extends JPanel {
 		
 	class baseInputHandler implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
-			base = Integer.parseInt(inputBaseText);
-			total = base;
+			outputTotal.setText(inputBase.getText());
+
 		}
 			
 		}
